@@ -22,3 +22,51 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Gradle build folders
+.gradle/
+build/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compilation output
+out/
+
+# Gradle wrapper lock file (optional, if generated)
+gradle/wrapper/gradle-wrapper.properties.lock
+
+# VS Code project files (if anyone uses it)
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln
+*.csproj
+
+# Exclude local run/debug configurations (optional)
+.idea/runConfigurations/
+
+# Optional: Exclude generated JAR/WAR files if not needed
+*.jar
+*.war
+
+# Optional: Exclude user-specific properties
+gradle.properties
+
+# Ignore crash reports
+hs_err_pid*.log
